@@ -173,6 +173,9 @@ main {
 
 @media screen and (max-width:576px) {
     :root {
+        --cont:calc(100% - 40px);
+    }
+    :root {
         --cont:calc(100vw - 40px);
     }
     .logo {
