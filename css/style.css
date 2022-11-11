@@ -156,9 +156,6 @@ main {
     .main_link a {
         padding: 20px 20px 20px 0;
     }
-    .phone {
-        width: 100%;
-    }
     .img {
         width: 95%;
         height: calc(0.93*var(--cont));
@@ -166,15 +163,12 @@ main {
         margin: 50px auto;
     }
     .phone {
-        width: var(--cont);
+        width: calc(100vw - 40px);
         bottom:-5%;
     }
 }
 
 @media screen and (max-width:576px) {
-    :root {
-        --cont:calc(100% - 40px);
-    }
     :root {
         --cont:calc(100vw - 40px);
     }
