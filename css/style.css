@@ -163,7 +163,7 @@ main {
         margin: 50px auto;
     }
     .phone {
-        width: calc(100vw - 40px);
+        width: calc(100vw - 20px);
         bottom:-5%;
     }
 }
