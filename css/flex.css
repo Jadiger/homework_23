@@ -1,4 +1,7 @@
 /*----Universal Styles----*/
+.nowrap {
+    flex-wrap: nowrap;
+}
 .column {
     flex-direction: column;
 }
@@ -33,7 +36,7 @@
 /*---XL---*/
 .container {
     width: 970px;
-    margin: 0 auto;
+    margin:auto;
 }
 .col-xl-1 {
     flex-basis: calc(100%/12);
@@ -75,7 +78,7 @@
 /*----LG----*/
 @media screen and (max-width:1200px) {
     .container {
-        width: 80%;
+        width: 85%;
         margin: 0 auto;
     }
     .col-lg-1 {
