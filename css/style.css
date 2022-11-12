@@ -12,7 +12,7 @@
     src: url('../fonts/Gilroy-Bold.ttf');
     font-weight: 700;
 }
-
+/*----Default Styles---*/
 :root {
     --cont:970px;
     --cont-lg:80vw;
@@ -20,8 +20,6 @@
     --cont-sm:90vw;
     --cont-xs:calc(100vw - 40px);
 }
-
-/*----Default Styles----*/
 * {
     margin: 0;
     padding: 0;
@@ -57,11 +55,10 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
+
+/*----Start Header Styles----*/
 header {
     padding-top: 20px;
-}
-main {
-    padding-top: 70px;
 }
 .logo {
     width: 70px;
@@ -86,10 +83,12 @@ main {
     font-family: 'Gilroy-Medium';
     text-decoration: none;
 }
+/*----End Header Styles---*/
 
-/* .main_left {
-    height: calc(0.5*var(--cont));
-} */
+/*----Start Main Styles----*/
+main {
+    padding-top: 70px;
+}
 .main_left a {
     color:#768A9D;
     font-size: 1.5rem;
@@ -133,7 +132,9 @@ main {
     position: relative;
     bottom: -10%;
 }
+/*End Main Styles----*/
 
+/*---Start Perevagi Section Styles---*/
 .perevagi {
     margin:70px 0 50px;
 }
@@ -158,11 +159,15 @@ main {
     align-items:center;
     margin-bottom: 25px;
 }
+/*---End Perevagi Section Styles---*/
 
+/*---Start Vidguti Section Styles---*/
 .vidguki {
     padding:40px 0;
 }
+/*---End Vidguti Section Styles---*/
 
+/*----Start Credit Reklama Section Styles---*/
 .credit_reklama {
     margin: 100px 0 50px;
 }
@@ -192,10 +197,15 @@ main {
     width: 60%;
     bottom:-70px;
 }
+/*----End Credit Reklama Section Styles---*/
 
+/*----Start Footer styles---*/
 footer p {
     color:#768A9D;
 }
+/*----End Footer styles---*/
+
+/*----972 < Screen size < 1200---*/
 @media screen and (max-width:1200px) {
     .img {
         width: calc(0.42*var(--cont-lg));
@@ -216,6 +226,7 @@ footer p {
     }
 }
 
+/*----768 < Screen size < 991---*/
 @media screen and (max-width:992px) {
     .img {
         width: calc(0.42*var(--cont-md));
@@ -242,7 +253,7 @@ footer p {
     }
 
 }
-
+/*----576 < Screen size < 768---*/
 @media screen and (max-width:768px) {
     .perevagi {
         margin:40px 0 20px;
@@ -313,6 +324,7 @@ footer p {
     }
 }
 
+/*----0 < Screen size < 576---*/
 @media screen and (max-width:576px) {
     h1 {
         font-size: 30px;
