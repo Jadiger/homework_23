@@ -200,6 +200,9 @@ main {
 /*----End Credit Reklama Section Styles---*/
 
 /*----Start Footer styles---*/
+footer {
+    margin:100px 0;
+}
 footer p {
     color:#768A9D;
 }
@@ -223,6 +226,9 @@ footer p {
     .block_img img {
         width: 60%;
         bottom: -65px;
+    }
+    footer {
+        margin: 80px 0;
     }
 }
 
@@ -251,7 +257,9 @@ footer p {
         width: 65%;
         bottom:-60px;
     }
-
+    footer {
+        margin: 70px 0;
+    }
 }
 /*----576 < Screen size < 768---*/
 @media screen and (max-width:768px) {
@@ -322,6 +330,9 @@ footer p {
         width: 100%;
         bottom:-40px;
     }
+    footer {
+        margin:60px 0;
+    }
 }
 
 /*----0 < Screen size < 576---*/
@@ -366,6 +377,9 @@ footer p {
         transform: translateX(-50%);
         width: 100%;
         bottom:-30px;
+    }
+    footer {
+        margin: 50px 0;
     }
 }
 
